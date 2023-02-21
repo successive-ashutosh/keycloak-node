@@ -158,3 +158,12 @@ async function resetPassword(email, newPassword){
 }
 
 //resetPassword("abh123@gmail.com", "abhi");
+module.exports = {
+  getAdminToken,
+  createUser,
+  findUser,
+  userList,
+  updateUser,
+  disableUser,
+  resetPassword
+};
